@@ -1,0 +1,12 @@
+//Motor Driver
+int MOTOR_DRIVER1 = 27, MOTOR_DRIVER2 = 4, MOTOR_DRIVER3 = 25, MOTOR_DRIVER4 = 26, speed_left, speed_right;
+
+
+//Ultraschall Sensor
+int US_TRIGGER1 = 18, US_ECHO1 = 39;
+long US_DURATION, US_DISTANCE;
+ 
+//Line Finder
+int LINE_FINDER1 = 34, LINE_FINDER2 = 35, LINE_FINDER3 = 36;
+int LINE_LEFT, LINE_RIGHT, LINE_MIDDEL;
+

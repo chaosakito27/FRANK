@@ -1,0 +1,32 @@
+Motor Driver:
+	Spannung 5-35V
+	
+	4 Analoge Pins
+	Rechst: 2, 4
+	Links: 25, 26
+	
+	Insgesamt 10 Kabel
+	
+	Check: 1, 2
+
+Linien Sensor:
+	Spannung 3,3-5V
+	
+	3 Digitale Pins:
+	Rechts: 34, 35, 36	
+	
+	Insgesamt 9 Kabel
+	
+	Check: 1, 
+
+Ultraschall Sensor:
+	Spannung 3,3-5V
+	
+	1 Digitaler Pin:
+	Rechts: 18
+	1 Analoger Pin:
+	Links: 39
+
+	Check: 1,
+	
+  	
