@@ -99,7 +99,7 @@ void motor_controll(int left_speed, int right_speed) {
 	}
 }
 
-//triggers den Ultraschall sensor und schreibt die Distanz in den US_DISZANCE Wert
+//triggers den Ultraschall sensor und schreibt die Distanz in den US_DISTANCE Wert fix für den nicht funktionierenden us sensor: manual lesen und merken dass man 1,7 V zu wenig hat
 void get_distance() {
 	digitalWrite(US_TRIGGER1, HIGH);
 	delay(10);
