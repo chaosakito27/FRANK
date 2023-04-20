@@ -43,7 +43,15 @@ void loop() {
 	//if(LINE_LEFT || LINE_RIGHT) speed = 100;
 	//else speed = 125;
 
-	motor_controll(speed*(!LINE_LEFT), speed*(!LINE_RIGHT));
+	if(LINE_LEFT) {
+		do {
+
+		} while
+	} 
+	else if(LINE_RIGHT) {
+
+	}
+	else motor_controll(speed*(!LINE_LEFT), speed*(!LINE_RIGHT));
 
 }
 
